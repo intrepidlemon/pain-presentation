@@ -4,6 +4,15 @@
       <intro/>
     </slide>
     <slide>
+      <motivation/>
+    </slide>
+    <slide>
+      <implementation/>
+    </slide>
+    <slide>
+      <demo/>
+    </slide>
+    <slide>
       <fin/>
     </slide>
   </div>
@@ -12,12 +21,19 @@
 <script>
 import eagle from 'eagle.js'
 import Intro from './components/Intro/Component'
+import Motivation from './components/Motivation/Component'
+import Implementation from './components/Implementation/Component'
+import Demo from './components/Demo/Component'
 import Fin from './components/Fin/Component'
+
 export default {
   mixins: [eagle.slideshow],
   name: 'app',
   components: {
     intro: Intro,
+    motivation: Motivation,
+    implementation: Implementation,
+    demo: Demo,
     fin: Fin
   }
 }

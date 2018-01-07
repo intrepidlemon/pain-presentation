@@ -11,7 +11,6 @@
 <script>
 import Pill from '@/components/Pill'
 export default {
-  name: 'Intro',
   components: {
     pill: Pill
   }
