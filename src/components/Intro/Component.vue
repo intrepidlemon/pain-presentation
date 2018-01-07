@@ -24,7 +24,7 @@ export default {
     margin: 0 auto;
   }
   h1 {
-    font-weight: 1000;
+    font-weight: 900;
   }
   p {
     font-size: 1.5rem;
