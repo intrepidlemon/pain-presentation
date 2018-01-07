@@ -3,8 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Eagle from 'eagle.js'
+
+import 'eagle.js/dist/eagle.css'
 
 Vue.config.productionTip = false
+
+Vue.use(Eagle)
 
 /* eslint-disable no-new */
 new Vue({
